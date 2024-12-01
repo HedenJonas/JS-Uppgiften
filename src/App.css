@@ -821,6 +821,15 @@ ul {
     }
   }
 
+  .email-form {
+    width: 100%;
+    text-align: center;
+  }
+
+  .error-message {
+    color: var(--clr-error);
+  }
+
   .btn-sub {
     background: var(--clr-Primary);
     border: 0;

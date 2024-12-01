@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import AccordionItem from './AccordionItem'
+import SignUp from './SignUp'
 
 const Faq = () => {
     const [accordions, setAccordions] = useState([])
@@ -99,11 +100,7 @@ const Faq = () => {
                         <h2 className="h2-newsletter" id="mobile-newsletter">Subscribe to our newsletter </h2>
                         <h2 className="h2-newsletter" id="desktop-newsletter">Subscribe to our newsletter to stay informed about latest updates</h2>
                     </div>
-                    <div className="sign-up-form">
-                        <label className="form-label" htmlFor="email"></label>
-                        <input className="form-input" type="email" name="email" id="email" placeholder="Your email" />
-                        <button className="btn-primary btn-sub">Subscribe</button>
-                    </div>
+                    <SignUp />
                 </div>
             </div>
         </section>
